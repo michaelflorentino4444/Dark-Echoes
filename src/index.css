@@ -1,0 +1,22 @@
+body {
+  background-color: wheat;
+  padding: 1rem;
+}
+main {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+.episodes ol {
+  list-style: none;
+  font-size: large;
+}
+.episodes li {
+  cursor: pointer;
+  padding: 15px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
